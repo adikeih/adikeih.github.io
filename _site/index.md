@@ -1,0 +1,2 @@
+## Welcome to Tigrinya Dictionary
+

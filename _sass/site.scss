@@ -1,0 +1,235 @@
+
+/*site header css 
+ *========================*/
+	.site-right{
+
+		 float:left;
+		 padding-top:16px;
+		 text-transform:uppercase;
+		
+	}
+    .site-right .page-link {
+		font-weight:700 !important;
+		line-height:1.5;
+		letter-spacing:0.05em;
+		margin-left:200px;
+
+		@include media-query($on-palm){
+		font-weight: 300;
+		margin-left:50px;
+		}
+    }
+
+/* blog title and content styling
+*====================================*/
+	.section .section-intro{
+		padding-top:34px;
+	}
+	.section .section-content{
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+	.large-centered{
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+	}
+	.large-10{
+		width:100%;
+	}
+	.hero-headline{
+		font-size: 52px;
+		line-height:1.0625;
+		font-weight:200 !important;
+		letter-spacing: -0.02em
+	}
+	.eyebrow{
+		display:inline-block;
+		width:100%;
+		font-size:24px;
+		line-height:1.333;
+		font-weight:300;
+		letter-spacing:0em;
+	}
+	.section {
+	    position: relative;
+	    z-index: 1;
+	    padding-top: 29px;
+	    padding-bottom: 25px;
+   }
+    .section-headline {
+	    font-size: 32px;
+	    line-height: 1.125;
+	    font-weight: 300;
+	    letter-spacing: 0em;
+   }
+   /* comments page
+   ========================================== */
+
+   #disqus_thread{
+   		margin-top:90px;
+   }
+  
+  /* background image
+  ============================================= */
+  .photo-project{
+   background-image: url("/assets/home2.jpg");
+   padding-top: 100px;
+   padding-bottom: 300px;
+   background-repeat: no-repeat;
+   background-size:cover;
+   opacity:0.9;
+
+  }
+  .photo-about{
+   background-image: url("/assets/aboutMe.jpg");
+   padding-top: 100px;
+   padding-bottom: 300px;
+   background-repeat: repeat;
+   background-size:contain;
+   opacity:0.9;
+  }
+  /* headline with background image
+  ================================================= */
+  .headline-kt{
+  		text-align:center;
+  		color:#fff;
+  		text-transform: uppercase;
+
+  }
+  .content{
+  padding-top:40px;
+  }
+  .container{
+  display:flex;
+  justify-content: space-around;
+  flex-direction:column;
+  width:300px;
+}
+.row{
+ display:flex;
+  
+}
+.result{
+  display:flex;
+  padding-left:30px;
+  
+}
+#licence{
+  font-weight:bold;
+  color: blue;
+}
+div.ui-datepicker{
+ font-size:10px;
+}
+.ui-datepicker{
+         width: 100px;
+  }
+#mobile {
+     display: block;
+     padding-bottom: 5px;
+ }
+
+  /* carousel css
+  ================================================= */
+  .rs-carousel{
+  display:flex;
+  flex-direction:column;
+  }
+  .prev, .next {
+   position:absolute;
+   top:42%;
+   z-index:99;
+  }
+  .next {
+   right:20px;
+   
+  }
+  .prev{
+    left:20px;
+  }
+  .fa-arrow-left, .fa-arrow-right{
+  color:#000;
+  font-size:30px !important;
+  }
+  .rs-carousel-pagination li{
+  list-style:none;
+  padding-right:5px;
+  }
+  ol.rs-carousel-pagination{
+  position: absolute;
+  z-index:998;
+  top:82%;
+  left:50%;
+  }
+  .rs-carousel-pagination{
+  display:flex;
+  justify-content:center;
+  }
+  .rs-carousel-pagination-link-active a{
+     color:#444;
+  }
+  .kt-carousel{
+  background-color:#eee;
+  }
+  .carousel-image{
+  width:1920px;
+  height:800px;
+  }
+  .carousel-image img{
+  width:1920px;
+  
+  }
+
+
+/* Index page styling
+========================================================= */
+.kt-indexHeader{
+  text-align:center;
+}
+.intro{
+  background-color: #cecece;
+  padding: 100px 0px 100px 0px;
+}
+.how-to{
+  background-color:#00B2EE;
+  padding: 100px 0px 100px 0px;
+}
+
+/*Tigrinya letters style
+=========================================================== */
+.vowels{
+    background-color: #00B2EE !important;
+    font-color: #fff;
+    color: #fff;
+    font-size: 41px;
+}
+tr td{
+  font-size:41px;
+}
+.letter-heading{
+    position: relative;
+    top: 316px;
+    left: 227px;
+    padding: 20px;
+    background-color: #FFF;
+    /* width: 74px; */
+    opacity: 0.8;
+    color: #333;
+    display: inline;
+    font-size: 20px;
+}
+table{
+  width:100%;
+}
+.warning{
+  background-color:#fcf8e3;
+}
+.success{
+  background-color:#dff0d8;
+}
+
+
+ 
