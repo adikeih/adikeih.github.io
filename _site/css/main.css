@@ -77,17 +77,17 @@ h6 {
 /* Links
  * ============================================== */
 a {
-  color: #009fd5;
+  color: #ac3f5b;
   text-decoration: none; }
   a:hover {
-    color: #00B2EE;
+    color: #bc4966;
     text-decoration: none; }
 
 /* Block Quotes
  * ============================================== */
 blockquote {
   color: #BBB;
-  border-left: 4px solid #00B2EE;
+  border-left: 4px solid #bc4966;
   padding-left: 15px;
   font-size: 17px;
   letter-spacing: -1px;
@@ -168,11 +168,12 @@ table {
 /* Site Header
  * ============================================== backgroud-color: #2dc3e8;*/
 .site-header {
-  height: 55px;
   background-color: #fff;
   position: fixed;
+  padding-top: 15px;
   width: 100%;
-  z-index: 100; }
+  z-index: 100;
+  top: 36px; }
 
 .site-header a {
   color: #444; }
@@ -184,9 +185,8 @@ table {
   .site-right {
     font-size: 14px; } }
 .site-nav {
-  padding-top: 16px;
   float: right;
-  margin-right: 25px;
+  margin-right: 170px;
   text-transform: uppercase; }
   .site-nav .menu-icon {
     display: none; }
@@ -242,7 +242,7 @@ table {
 /* Individual Posts
  * ============================================== */
 .page-content {
-  padding-top: 55px;
+  margin-top: 95px;
   text-align: justify; }
 
 .page-heading {
@@ -536,7 +536,6 @@ table {
  *========================*/
 .site-right {
   float: left;
-  padding-top: 16px;
   text-transform: uppercase; }
 
 .site-right .page-link {
@@ -632,9 +631,6 @@ table {
   flex-direction: column;
   width: 300px; }
 
-.row {
-  display: flex; }
-
 .result {
   display: flex;
   padding-left: 30px; }
@@ -661,7 +657,7 @@ div.ui-datepicker {
 
 .prev, .next {
   position: absolute;
-  top: 42%;
+  top: 30%;
   z-index: 99; }
 
 .next {
@@ -681,15 +677,12 @@ div.ui-datepicker {
 ol.rs-carousel-pagination {
   position: absolute;
   z-index: 998;
-  top: 82%;
+  top: 64%;
   left: 50%; }
 
 .rs-carousel-pagination {
   display: flex;
   justify-content: center; }
-
-.rs-carousel-pagination-link-active a {
-  color: #444; }
 
 .kt-carousel {
   background-color: #eee; }
@@ -701,6 +694,25 @@ ol.rs-carousel-pagination {
 .carousel-image img {
   width: 1920px; }
 
+.rs-carousel-pagination-link a {
+  color: #bc4966 !important; }
+
+.rs-carousel-pagination-link-active a {
+  color: #444 !important; }
+
+@media (max-width: 768px) {
+  .carousel-image img {
+    width: 500px; }
+
+  .prev, .next {
+    top: 8%; }
+
+  ol.rs-carousel-pagination {
+    top: 21px; }
+
+  .fa-arrow-left, .fa-arrow-right {
+    color: #000;
+    font-size: 17px !important; } }
 /* Index page styling
 ========================================================= */
 .kt-indexHeader {
@@ -745,3 +757,117 @@ table {
 
 .success {
   background-color: #dff0d8; }
+
+/*Full header social media
+=========================================================== */
+.social-media {
+  border-bottom: 1px solid #eee;
+  background: #fbfbfb;
+  position: fixed;
+  z-index: 2000;
+  width: 100%;
+  top: 0px; }
+
+#subheader {
+  color: #555;
+  opacity: 0.7; }
+
+#header {
+  top: 0px;
+  display: block; }
+
+.nav li {
+  list-style: none; }
+
+@media (min-width: 768px) {
+  .navbar-nav > li {
+    float: right !important; } }
+#subheader li a, #subheader .contact-info a {
+  color: #333 !important; }
+
+#subheader li a i, #subheader i, #footer .contact-info-footer li i {
+  font-size: 18px !important; }
+
+#subheader li a:hover, .site-header li a:hover {
+  background-color: #bc4966 !important; }
+
+#subheader li a:hover, .site-header li a:hover {
+  color: #fff !important; }
+
+.contact-info {
+  padding: 15px 15px; }
+
+#subheader {
+  display: flex;
+  justify-content: space-between; }
+
+.phone {
+  margin-left: 15px; }
+
+#subheader .contact-info a {
+  padding-left: 10px; }
+
+.site-page-links {
+  display: flex !important; }
+
+@media (max-width: 768px) {
+  .social-media {
+    display: none; }
+
+  .site-page-links {
+    display: initial; }
+
+  .site-header {
+    top: 0px; }
+
+  .page-content {
+    margin-top: 71px; } }
+/*Footer
+=========================================================== */
+#footer {
+  padding: 60px;
+  background-color: #222;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 0;
+  color: #7B8887;
+  overflow: auto;
+  clear: both;
+  font-size: 14px;
+  width: 100%; }
+
+#footer a {
+  color: #94A3A3; }
+
+#footer ul li {
+  list-style: none; }
+
+#footer ul li a i {
+  font-size: 14px;
+  margin-right: 6px; }
+
+#footer ul li a:hover {
+  color: #bc4966;
+  margin-left: 6px;
+  transition: all 0.2s ease-out; }
+
+#footer .contact-info-footer li i {
+  padding-right: 15px; }
+
+#footer .contact-info-footer li {
+  padding-bottom: 10px; }
+
+/*Pages style
+=========================================================== */
+.page-banner {
+  padding: 60px 0px 65px;
+  background-color: #bc4966; }
+  .page-banner .banner-title {
+    text-align: center;
+    color: #FFF; }
+
+.main {
+  padding: 205px 0px 205px;
+  background-color: #eee; }
