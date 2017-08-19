@@ -15,7 +15,7 @@
 
 		@include media-query($on-palm){
 		font-weight: 300;
-		margin-left:50px;
+		margin-left:5px;
 		}
     }
 
@@ -189,10 +189,10 @@ div.ui-datepicker{
   
   }
   .prev, .next{
-  top:8%;
+  top:10%;
   }
   ol.rs-carousel-pagination{
-   top:21px;
+   top:254px;
   }
   .fa-arrow-left, .fa-arrow-right {
     color: #000;
@@ -310,13 +310,25 @@ table{
     display:none;
 }
 .site-page-links{
-  display:initial;
+  display:flex;
+  justify-content:center;
 }
+
 .site-header{
   top:0px;
+  height:62px;
 }
 .page-content{
   margin-top:71px;
+}
+.site-right{
+  padding-top:0px;
+}
+.site-right ul{
+  margin-bottom:0px;
+}
+.site-right .navbar-nav{
+  margin:0px;
 }
 
 }

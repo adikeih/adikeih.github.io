@@ -35,16 +35,18 @@
     
       <ul class="nav navbar-nav trigger">
    
-    <li>
+    <li class="site-page-links">
          <a class="page-link" href="{{ site.baseurl }}/">Blog</a>
     </li>
-       <li class="site-page-links">
+       
         {% for page in site.pages %}
           {% if page.title %}
+          <li class="site-page-links">
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+           </li>
           {% endif %}
         {% endfor %}
-     </li>
+    
 
   </ul>
        
