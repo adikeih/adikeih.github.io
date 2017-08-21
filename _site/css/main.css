@@ -17,12 +17,13 @@ body {
   background-color: #FFF !important;
   font-style: normal;
   letter-spacing: 0em;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  font-family: Trebuchet MS, calibri, lucida sans, lucida grande, verdana, arial, helvetica, tahoma, sans-serif !important; }
 
 /* html styling
 *================================== */
 html {
-  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: Trebuchet MS, calibri, lucida sans, lucida grande, verdana, arial, helvetica, tahoma, sans-serif;
   font-size: 112.5%;
   quotes: "ÔÇ£" "ÔÇØ"; }
 

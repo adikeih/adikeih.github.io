@@ -7,11 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About Us</title>
+  <title>Portfolio</title>
   <meta name="description" content="">
   <meta name="google-site-verification" content="LA-rXFeVwitrf7bP-jkQf1MFJOn0rCMbcmxEuuRW-u8" />
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/about-us.html">
+  <link rel="canonical" href="/Portfolio">
   <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml" />
   <link rel="stylesheet" type="text/css" href="/assets/jQuery-ui-carousel/css/jQuery.rs.carousel.css" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -193,10 +193,16 @@ return initialValue;
     
       <ul class="nav navbar-nav trigger">
    
-    <!--<li class="site-page-links">
+    <li class="site-page-links">
          <a class="page-link" href="/">Blog</a>
-    </li>-->
+    </li>
        
+        
+          
+          <li class="site-page-links">
+          <a class="page-link" href="/Portfolio">Portfolio</a>
+           </li>
+          
         
           
           <li class="site-page-links">
@@ -212,42 +218,12 @@ return initialValue;
         
           
           <li class="site-page-links">
-          <a class="page-link" href="/bussiness.html">Bussiness</a>
-           </li>
-          
-        
-          
-          <li class="site-page-links">
           <a class="page-link" href="/events.html">Events</a>
            </li>
           
         
           
         
-          
-          <li class="site-page-links">
-          <a class="page-link" href="/kidsCorner.html">Kids Corner</a>
-           </li>
-          
-        
-          
-        
-          
-          <li class="site-page-links">
-          <a class="page-link" href="/studentsCorner.html">Students Corner</a>
-           </li>
-          
-        
-          
-          <li class="site-page-links">
-          <a class="page-link" href="/tigrinya.html">ትግርኛ</a>
-           </li>
-          
-        
-          
-          <li class="site-page-links">
-          <a class="page-link" href="/writersCorner.html">Writers Corner</a>
-           </li>
           
         
     
@@ -258,6 +234,10 @@ return initialValue;
           <a class="page-link" href="/">Blog</a>
         
           
+          <a class="page-link" href="/Portfolio">Portfolio</a>
+          
+        
+          
           <a class="page-link" href="/Portfolio.html">Portfolio</a>
           
         
@@ -266,31 +246,11 @@ return initialValue;
           
         
           
-          <a class="page-link" href="/bussiness.html">Bussiness</a>
-          
-        
-          
           <a class="page-link" href="/events.html">Events</a>
           
         
           
         
-          
-          <a class="page-link" href="/kidsCorner.html">Kids Corner</a>
-          
-        
-          
-        
-          
-          <a class="page-link" href="/studentsCorner.html">Students Corner</a>
-          
-        
-          
-          <a class="page-link" href="/tigrinya.html">ትግርኛ</a>
-          
-        
-          
-          <a class="page-link" href="/writersCorner.html">Writers Corner</a>
           
         
       </div>-->
@@ -304,7 +264,7 @@ return initialValue;
 
     <div class="page-content">
          <div class="page-banner">
-              <h1 class="banner-title"> About Us</h1>
+              <h1 class="banner-title"> Portfolio</h1>
           </div>
       <div class="row main">  
       <div class="wrapper">
@@ -333,61 +293,29 @@ return initialValue;
 
          <ul>
 
-      
+       <li>
         
           
-           <li>
+          <a class="page-link" href="/Portfolio"><i class="fa fa-angle-right" aria-hidden="true"></i>Portfolio</a>
+          
+        
+          
           <a class="page-link" href="/Portfolio.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Portfolio</a>
-           </li>
           
         
           
-           <li>
           <a class="page-link" href="/about-us.html"><i class="fa fa-angle-right" aria-hidden="true"></i>About Us</a>
-           </li>
           
         
           
-           <li>
-          <a class="page-link" href="/bussiness.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Bussiness</a>
-           </li>
-          
-        
-          
-           <li>
           <a class="page-link" href="/events.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Events</a>
-           </li>
           
         
           
         
           
-           <li>
-          <a class="page-link" href="/kidsCorner.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Kids Corner</a>
-           </li>
-          
         
-          
-        
-          
-           <li>
-          <a class="page-link" href="/studentsCorner.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Students Corner</a>
-           </li>
-          
-        
-          
-           <li>
-          <a class="page-link" href="/tigrinya.html"><i class="fa fa-angle-right" aria-hidden="true"></i>ትግርኛ</a>
-           </li>
-          
-        
-          
-           <li>
-          <a class="page-link" href="/writersCorner.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Writers Corner</a>
-           </li>
-          
-        
-    
+     </li>
 
          </ul>
       </div>
