@@ -21,7 +21,7 @@
    <nav class="site-right">
     <ul class="nav navbar-nav">
       <li>
-    <a class="page-link" href="{{ site.baseurl }}/">Mahber Adikeih</a>
+    <a class="page-link logo" href="{{ site.baseurl }}/">Mahber Adikeih</a>
   </li>
   </ul>
   </nav>
@@ -35,9 +35,7 @@
     
       <ul class="nav navbar-nav trigger">
    
-    <!--<li class="site-page-links">
-         <a class="page-link" href="{{ site.baseurl }}/">Blog</a>
-    </li>-->
+   
        
         {% for page in site.pages %}
           {% if page.title %}
@@ -46,6 +44,10 @@
            </li>
           {% endif %}
         {% endfor %}
+
+         <li class="site-page-links">
+         <a class="page-link" href="{{ site.baseurl }}/">Home</a>
+         </li>
     
 
   </ul>

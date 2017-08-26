@@ -252,7 +252,7 @@ table{
 =========================================================== */
 .social-media{
   border-bottom:1px solid #eee;
-  background:#fbfbfb;
+  background:lightgreen;
   position:fixed;
   z-index:2000;
   width:100%;
@@ -398,6 +398,10 @@ table{
 table{
   table-layout:fixed;
   width: 100%;
+}
+
+.logo{
+  font-size:24px;
 }
 
    
